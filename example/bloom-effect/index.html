@@ -1,28 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <style> body { margin: 0; } </style>
-
   <script src="//unpkg.com/3d-force-graph"></script>
-<!--  <script src="../../dist/3d-force-graph.js"></script>-->
 </head>
-
 <body>
-  <div id="3d-graph"></div>
+  <div id="3d-graph" style="width: 100vw; height: 100vh;"></div>
 
-  <script type="importmap">{ "imports": { "three": "//unpkg.com/three/build/three.module.js" }}</script>
+  <script type="importmap">
+    { "imports": { "three": "//unpkg.com/three/build/three.module.js" }}
+  </script>
   <script type="module">
     import { UnrealBloomPass } from '//unpkg.com/three/examples/jsm/postprocessing/UnrealBloomPass.js';
+
+    console.log("Initializing 3D Force Graph");
 
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
         .backgroundColor('#000003')
-        .jsonUrl('../datasets/miserables.json')
+        .jsonUrl('./datasets/miserables.json')  // Ensure this path is correct
         .nodeLabel('id')
         .nodeAutoColorBy('group');
+
+    Graph.onLoading(() => {
+      console.log("Loading data...");
+    });
+
+    Graph.onFinishLoading(() => {
+      console.log("Data loaded:", Graph.graphData());
+    });
 
     const bloomPass = new UnrealBloomPass();
     bloomPass.strength = 4;
     bloomPass.radius = 1;
     bloomPass.threshold = 0;
     Graph.postProcessingComposer().addPass(bloomPass);
+
+    console.log("3D Force Graph initialized");
   </script>
 </body>
+</html>
+
