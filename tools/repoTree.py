@@ -44,3 +44,27 @@ print(json_tree)
 with open('repo_tree.json', 'w') as f:
     f.write(json_tree)
 
+# Load the nested JSON tree structure
+with open('repo_tree.json', 'r') as f:
+    repo_tree = json.load(f)
+
+nodes = []
+links = []
+
+def process_node(name, tree, parent=None):
+    nodes.append({"id": name})
+    if parent:
+        links.append({"source": parent, "target": name})
+    if isinstance(tree, dict):
+        for child_name, child_tree in tree.items():
+            process_node(child_name, child_tree, name)
+
+# Start processing from the root
+process_node('root', repo_tree)
+
+# Save the transformed JSON structure
+transformed_tree = {"nodes": nodes, "links": links}
+with open('transformed_repo_tree.json', 'w') as f:
+    json.dump(transformed_tree, f, indent=4)
+
+print(json.dumps(transformed_tree, indent=4))
