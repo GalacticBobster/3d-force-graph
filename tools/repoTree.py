@@ -5,9 +5,9 @@ import requests
 TOKEN = ''
 # User and repository
 USER = 'GalacticBobster'
-REPO = 'C3M'
+REPO = 'GITM'
 # Default branch
-BRANCH = 'main'
+BRANCH = 'master'
 
 # Get the commit SHA of the default branch
 branch_url = f'https://api.github.com/repos/{USER}/{REPO}/branches/{BRANCH}'
