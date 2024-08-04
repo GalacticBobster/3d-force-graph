@@ -2,7 +2,7 @@
   <style> body { margin: 0; } </style>
 
   <script src="//unpkg.com/3d-force-graph"></script>
-<!--  <script src="../../dist/3d-force-graph.js"></script>-->
+  <!--<script src="../../dist/3d-force-graph.js"></script>-->
 </head>
 
 <body>
@@ -10,19 +10,23 @@
 
   <script type="importmap">{ "imports": { "three": "//unpkg.com/three/build/three.module.js" }}</script>
   <script type="module">
-    import { UnrealBloomPass } from '//unpkg.com/three/examples/jsm/postprocessing/UnrealBloomPass.js';
+    import SpriteText from "//unpkg.com/three-spritetext/dist/three-spritetext.mjs";
 
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
-        .backgroundColor('#000003')
         .jsonUrl('../datasets/repo_tree.json')
-        .nodeLabel('id')
-        .nodeAutoColorBy('group');
+        .nodeAutoColorBy('group')
+        .nodeThreeObject(node => {
+          const sprite = new SpriteText(node.id);
+          sprite.material.depthWrite = false; // make sprite background transparent
+          sprite.color = node.color;
+          sprite.textHeight = 8;
+          return sprite;
+        });
 
-    const bloomPass = new UnrealBloomPass();
-    bloomPass.strength = 4;
-    bloomPass.radius = 1;
-    bloomPass.threshold = 0;
-    Graph.postProcessingComposer().addPass(bloomPass);
+    // Spread nodes a little wider
+    Graph.d3Force('charge').strength(-120);
+
   </script>
 </body>
+
