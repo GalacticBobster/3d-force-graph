@@ -7,7 +7,7 @@ TOKEN = ''
 USER = 'GalacticBobster'
 REPO = 'C3M'
 # Default branch
-BRANCH = 'ion'
+BRANCH = 'main'
 
 # Get the commit SHA of the default branch
 branch_url = f'https://api.github.com/repos/{USER}/{REPO}/branches/{BRANCH}'
@@ -23,6 +23,7 @@ response.raise_for_status()
 tree = response.json()['tree']
 
 # Convert the tree to a nested JSON structure
+# Convert the tree to a nested JSON structure
 def build_tree(entries):
     tree = {}
     for entry in entries:
@@ -35,11 +36,13 @@ def build_tree(entries):
         node[parts[-1]] = {} if entry['type'] == 'tree' else None
     return tree
 
+# Assuming 'tree' is the input data
 tree_structure = build_tree(tree)
 
 # Print or save the JSON tree
 json_tree = json.dumps(tree_structure, indent=4)
 print(json_tree)
+
 # Optionally, save to a file
 with open('repo_tree.json', 'w') as f:
     f.write(json_tree)
@@ -52,7 +55,12 @@ nodes = []
 links = []
 
 def process_node(name, tree, parent=None):
-    nodes.append({"id": name})
+    node_info = {
+        "id": name,
+        "user": "example_user",  # Replace with actual user information
+        "description": "example_description"  # Replace with actual description
+    }
+    nodes.append(node_info)
     if parent:
         links.append({"source": parent, "target": name})
     if isinstance(tree, dict):
