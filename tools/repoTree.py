@@ -54,21 +54,23 @@ with open('repo_tree.json', 'r') as f:
 nodes = []
 links = []
 
-def process_node(name, tree, parent=None):
+def process_node(name, tree, parent=None,path=""):
+    url = f"https://github.com/{USER}/{REPO}/tree/{BRANCH}/{path}/{name}"  # Adjust the base URL accordingly
     node_info = {
         "id": name,
         "user": "example_user",  # Replace with actual user information
-        "description": "example_description"  # Replace with actual description
+        "description": "example_description",  # Replace with actual description
+        "url": url  # Add the hyperlink
     }
     nodes.append(node_info)
     if parent:
         links.append({"source": parent, "target": name})
     if isinstance(tree, dict):
         for child_name, child_tree in tree.items():
-            process_node(child_name, child_tree, name)
+            process_node(child_name, child_tree, name, f"{path}/{name}".strip("/"))
 
 # Start processing from the root
-process_node('root', repo_tree)
+process_node('',repo_tree)
 
 # Save the transformed JSON structure
 transformed_tree = {"nodes": nodes, "links": links}
