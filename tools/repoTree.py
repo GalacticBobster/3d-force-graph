@@ -4,8 +4,8 @@ import requests
 # GitHub API token
 TOKEN = '' #Enter your token
 # User and repository
-USER = 'SWMFsoftware'
-REPO = 'SWMF'
+USER = 'chengcli'
+REPO = 'canoe'
 # Default branch
 BRANCH = 'master'
 
