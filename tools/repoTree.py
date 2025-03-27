@@ -2,10 +2,10 @@ import json
 import requests
 
 # GitHub API token
-TOKEN = ''
+TOKEN = '' #Enter your token
 # User and repository
-USER = 'GalacticBobster'
-REPO = 'GITM'
+USER = 'SWMFsoftware'
+REPO = 'SWMF'
 # Default branch
 BRANCH = 'master'
 

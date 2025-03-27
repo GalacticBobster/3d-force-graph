@@ -49,9 +49,9 @@ And check out the [React bindings](https://github.com/vasturiano/react-force-gra
 * [Add external objects to scene](https://vasturiano.github.io/3d-force-graph/example/scene/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/scene/index.html))
 * [Bloom Post-Processing Effect](https://vasturiano.github.io/3d-force-graph/example/bloom-effect/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/bloom-effect/index.html))
 * [Pause / Resume animation](https://vasturiano.github.io/3d-force-graph/example/pause-resume/) ([source](https://github.com/vasturiano/3d-force-graph/blob/master/example/pause-resume/index.html))
-* [Ananyo-test1](https://galacticbobster.github.io/3d-force-graph/example/ananyo_test1) ([source](https://galacticbobster.github.io/3d-force-graph/example/ananyo_test1/index.html))
+* [C3M](https://galacticbobster.github.io/3d-force-graph/example/ananyo_test1) ([source](https://galacticbobster.github.io/3d-force-graph/example/ananyo_test1/index.html))
 * [GITM](https://galacticbobster.github.io/3d-force-graph/example/gitm/index.html)
-
+* [SWMF](https://galacticbobster.github.io/3d-force-graph/example/SWMF/index.html)
 ## Quick start
 
 ```js
