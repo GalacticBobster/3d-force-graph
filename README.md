@@ -56,6 +56,7 @@ And check out the [React bindings](https://github.com/vasturiano/react-force-gra
 * [GITM](https://galacticbobster.github.io/3d-force-graph/example/gitm/index.html)
 * [SWMF](https://galacticbobster.github.io/3d-force-graph/example/SWMF/index.html)
 * [CANOE](https://galacticbobster.github.io/3d-force-graph/example/canoe/index.html)
+* [Silane network](https://galacticbobster.github.io/3d-force-graph/example/silane/index.html)
 ## Quick start
 
 ```js

@@ -1,0 +1,4901 @@
+{
+    "Rxn_1": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO(OH)",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            },
+            {
+                "node": "HOSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "HSIO(OH)": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_1",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_2",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_3",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_6",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_8",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_10",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_14",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_16",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_23",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_32",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_43",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_53",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_133",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_134",
+                "direction": "product"
+            }
+        ]
+    },
+    "H": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_1",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_3",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_4",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_6",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_7",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_12",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_13",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_16",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_17",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_19",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_24",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_28",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_29",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_30",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_31",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_33",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_35",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_39",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_46",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_47",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_48",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_49",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_50",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_51",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_52",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_53",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_56",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_57",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_77",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_82",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_83",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_84",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_85",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_86",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_88",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_89",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_93",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_94",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_97",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_100",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_101",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_102",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_103",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_106",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_122",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_133",
+                "direction": "product"
+            }
+        ]
+    },
+    "HOSIO": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_1",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_4",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_8",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_9",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_10",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_11",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_12",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_14",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_15",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_18",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_33",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_34",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_53",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_2": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO(OH)",
+                "direction": "reactant"
+            },
+            {
+                "node": "HSIO",
+                "direction": "product"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            }
+        ]
+    },
+    "HSIO": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_2",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_29",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_30",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_42",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_106",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_107",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_108",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_112",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_113",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_114",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_116",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_119",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_123",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_131",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_132",
+                "direction": "reactant"
+            }
+        ]
+    },
+    "OH": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_2",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_5",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_8",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_9",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_10",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_11",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_28",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_34",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_55",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_81",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_82",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_83",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_84",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_85",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_86",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_87",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_88",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_90",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_92",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_93",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_95",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_96",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_98",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_104",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_107",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_108",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_112",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_116",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_121",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_125",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_126",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_133",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_134",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_136",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_139",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_142",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_3": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO(OH)",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            },
+            {
+                "node": "HSIO2",
+                "direction": "product"
+            }
+        ]
+    },
+    "HSIO2": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_3",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_13",
+                "direction": "reactant"
+            }
+        ]
+    },
+    "Rxn_4": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SI(OH)2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            },
+            {
+                "node": "HOSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "SI(OH)2": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_4",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_7",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_9",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_11",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_12",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_15",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_17",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_43",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_45",
+                "direction": "reactant"
+            }
+        ]
+    },
+    "Rxn_5": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HOSIO2",
+                "direction": "reactant"
+            },
+            {
+                "node": "sio2(c)",
+                "direction": "product"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            }
+        ]
+    },
+    "HOSIO2": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_5",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_6",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_7",
+                "direction": "product"
+            }
+        ]
+    },
+    "sio2(c)": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_5",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_13",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_16",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_17",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_18",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_28",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_33",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_109",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_110",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_144",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_6": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO(OH)",
+                "direction": "reactant"
+            },
+            {
+                "node": "O",
+                "direction": "reactant"
+            },
+            {
+                "node": "HOSIO2",
+                "direction": "product"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "O": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_6",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_7",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_8",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_9",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_22",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_25",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_26",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_55",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_81",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_82",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_84",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_86",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_87",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_95",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_99",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_107",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_109",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_110",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_116",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_125",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_141",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_7": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI(OH)2",
+                "direction": "reactant"
+            },
+            {
+                "node": "HOSIO2",
+                "direction": "product"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_8": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO(OH)",
+                "direction": "reactant"
+            },
+            {
+                "node": "O",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            },
+            {
+                "node": "HOSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_9": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI(OH)2",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            },
+            {
+                "node": "HOSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_10": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO(OH)",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            },
+            {
+                "node": "HOSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "H2O": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_10",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_11",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_32",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_36",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_37",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_38",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_39",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_45",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_48",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_51",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_81",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_83",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_85",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_90",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_92",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_93",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_98",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_104",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_108",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_126",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_11": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "OH",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI(OH)2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            },
+            {
+                "node": "HOSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_12": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI(OH)2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "HOSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "H2": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_12",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_29",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_31",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_32",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_35",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_37",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_38",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_40",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_41",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_42",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_44",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_46",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_47",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_49",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_50",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_53",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_57",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_59",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_60",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_61",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_63",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_64",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_65",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_71",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_72",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_73",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_74",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_75",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_76",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_80",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_85",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_86",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_89",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_94",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_97",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_98",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_105",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_106",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_122",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_143",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_13": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO2",
+                "direction": "reactant"
+            },
+            {
+                "node": "sio2(c)",
+                "direction": "product"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_14": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO(OH)",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O2",
+                "direction": "product"
+            },
+            {
+                "node": "HOSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "HO2": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_14",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_15",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_16",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_17",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_18",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_87",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_88",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_89",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_90",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_91",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_92",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_94",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_95",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_98",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_100",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_101",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_102",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_103",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_111",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_113",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_114",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_115",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_120",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_124",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_129",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_130",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_131",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_134",
+                "direction": "reactant"
+            }
+        ]
+    },
+    "H2O2": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_14",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_15",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_91",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_92",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_93",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_94",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_95",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_96",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_111",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_113",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_130",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_15": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HO2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI(OH)2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O2",
+                "direction": "product"
+            },
+            {
+                "node": "HOSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_16": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO(OH)",
+                "direction": "reactant"
+            },
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            },
+            {
+                "node": "sio2(c)",
+                "direction": "product"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "O2": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_16",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_17",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_18",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_19",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_20",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_21",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_22",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_26",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_82",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_87",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_89",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_90",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_91",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_99",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_100",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_101",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_102",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_103",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_109",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_112",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_114",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_115",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_120",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_124",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_129",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_131",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_135",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_136",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_137",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_17": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI(OH)2",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            },
+            {
+                "node": "sio2(c)",
+                "direction": "product"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_18": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "HOSIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            },
+            {
+                "node": "sio2(c)",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_19": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH3",
+                "direction": "reactant"
+            },
+            {
+                "node": "C-OSIH2O",
+                "direction": "product"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "SIH3": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_19",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_20",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_21",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_22",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_55",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_57",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_65",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_66",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_74",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_104",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_111",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_115",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_117",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_118",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_127",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_135",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_136",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_137",
+                "direction": "product"
+            }
+        ]
+    },
+    "C-OSIH2O": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_19",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_23",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_24",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_20": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH3",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIOO",
+                "direction": "product"
+            }
+        ]
+    },
+    "H3SIOO": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_20",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_21",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_24",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_25",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_118",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_119",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_120",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_122",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_128",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_138",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_139",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_140",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_21": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOO",
+                "direction": "reactant"
+            },
+            {
+                "node": "O2",
+                "direction": "product"
+            },
+            {
+                "node": "SIH3",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_22": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH3",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIO",
+                "direction": "product"
+            },
+            {
+                "node": "O",
+                "direction": "product"
+            }
+        ]
+    },
+    "H3SIO": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_22",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_25",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_27",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_31",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_49",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_50",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_51",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_52",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_117",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_121",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_123",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_124",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_132",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_141",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_23": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "C-OSIH2O",
+                "direction": "reactant"
+            },
+            {
+                "node": "HSIO(OH)",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_24": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOO",
+                "direction": "reactant"
+            },
+            {
+                "node": "C-OSIH2O",
+                "direction": "product"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_25": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIO",
+                "direction": "product"
+            },
+            {
+                "node": "O",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_26": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI",
+                "direction": "reactant"
+            },
+            {
+                "node": "O",
+                "direction": "product"
+            },
+            {
+                "node": "SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "SI": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_26",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_60",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_68",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_70",
+                "direction": "reactant"
+            }
+        ]
+    },
+    "SIO": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_26",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_28",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_30",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_34",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_44",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_45",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_54",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_106",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_107",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_108",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_109",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_110",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_114",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_132",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_143",
+                "direction": "reactant"
+            }
+        ]
+    },
+    "Rxn_27": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIOH",
+                "direction": "product"
+            }
+        ]
+    },
+    "H2SIOH": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_27",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_35",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_39",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_42",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_46",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_47",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_48",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_56",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_125",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_126",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_127",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_128",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_129",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_130",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_28": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "OH",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "sio2(c)",
+                "direction": "product"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_29": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "HSIO",
+                "direction": "product"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            }
+        ]
+    },
+    "H2SIO": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_29",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_32",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_37",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_40",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_46",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_49",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_56",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_113",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_116",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_119",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_123",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_124",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_131",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_133",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_134",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_136",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_139",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_142",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_143",
+                "direction": "reactant"
+            }
+        ]
+    },
+    "Rxn_30": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIO",
+                "direction": "product"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_31": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIO",
+                "direction": "product"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            }
+        ]
+    },
+    "H3SIOH": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_31",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_35",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_36",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_40",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_41",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_52",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_117",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_123",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_125",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_126",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_127",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_128",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_129",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_130",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_132",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_32": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2O",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "HSIO(OH)",
+                "direction": "product"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_33": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "sio2(c)",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "HOSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_34": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "OH",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "HOSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_35": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIOH",
+                "direction": "product"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_36": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2O",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIOH",
+                "direction": "product"
+            }
+        ]
+    },
+    "SIH2": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_36",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_37",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_38",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_39",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_48",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_51",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_58",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_59",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_60",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_61",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_64",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_66",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_68",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_69",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_70",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_78",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_79",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_105",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_112",
+                "direction": "reactant"
+            }
+        ]
+    },
+    "Rxn_37": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2O",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_38": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2O",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "HSIOH",
+                "direction": "product"
+            }
+        ]
+    },
+    "HSIOH": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_38",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_41",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_44",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_47",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_50",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_39": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2O",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIOH",
+                "direction": "product"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_40": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_41": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "HSIOH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_42": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2SIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "HSIO",
+                "direction": "product"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_43": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO(OH)",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI(OH)2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_44": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_45": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SI(OH)2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            },
+            {
+                "node": "SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_46": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2SIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_47": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2SIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "HSIOH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_48": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2SIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            },
+            {
+                "node": "SIH2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_49": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_50": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "HSIOH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_51": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            },
+            {
+                "node": "SIH2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_52": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIOH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_53": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO(OH)",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "HOSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_54": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SI2O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "SI2O2": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_54",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_143",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_55": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH4",
+                "direction": "reactant"
+            },
+            {
+                "node": "O",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            },
+            {
+                "node": "SIH3",
+                "direction": "product"
+            }
+        ]
+    },
+    "SIH4": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_55",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_57",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_58",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_59",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_64",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_65",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_66",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_67",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_68",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_104",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_105",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_111",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_115",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_117",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_118",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_127",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_56": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIOH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_57": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH4",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "SIH3",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_58": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SISIH3",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH4",
+                "direction": "product"
+            },
+            {
+                "node": "SIH2",
+                "direction": "product"
+            }
+        ]
+    },
+    "H3SISIH3": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_58",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_63",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_73",
+                "direction": "reactant"
+            }
+        ]
+    },
+    "Rxn_59": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH4",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "H3SISIH",
+                "direction": "product"
+            }
+        ]
+    },
+    "H3SISIH": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_59",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_62",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_71",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_73",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_79",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_60": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "SI",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_61": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "SI2H2",
+                "direction": "product"
+            }
+        ]
+    },
+    "SI2H2": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_61",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_70",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_71",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_72",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_75",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_77",
+                "direction": "reactant"
+            }
+        ]
+    },
+    "Rxn_62": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SISIH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SISIH2",
+                "direction": "product"
+            }
+        ]
+    },
+    "H2SISIH2": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_62",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_63",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_64",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_72",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_78",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_63": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2SISIH2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SISIH3",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_64": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2SISIH2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH4",
+                "direction": "product"
+            },
+            {
+                "node": "SIH2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_65": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH4",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH3",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "SI2H5",
+                "direction": "product"
+            }
+        ]
+    },
+    "SI2H5": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_65",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_67",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_76",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_66": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH4",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH2",
+                "direction": "product"
+            },
+            {
+                "node": "SIH3",
+                "direction": "product"
+            }
+        ]
+    },
+    "SIH": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_66",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_67",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_69",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_74",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_80",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_67": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH4",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI2H5",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_68": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH4",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_69": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI2H3",
+                "direction": "product"
+            }
+        ]
+    },
+    "SI2H3": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_69",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_76",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_77",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_70": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI2H2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_71": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI2H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SISIH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_72": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI2H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SISIH2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_73": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SISIH3",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "H3SISIH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_74": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH3",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_75": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SI2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI2H2",
+                "direction": "product"
+            }
+        ]
+    },
+    "SI2": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_75",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_80",
+                "direction": "reactant"
+            }
+        ]
+    },
+    "Rxn_76": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SI2H3",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI2H5",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_77": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI2H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SI2H3",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_78": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SISIH2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_79": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SISIH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_80": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SI2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_81": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "OH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            },
+            {
+                "node": "O",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_82": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            },
+            {
+                "node": "O",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_83": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "OH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_84": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_85": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "OH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_86": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_87": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HO2",
+                "direction": "reactant"
+            },
+            {
+                "node": "O",
+                "direction": "reactant"
+            },
+            {
+                "node": "O2",
+                "direction": "product"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_88": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HO2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_89": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_90": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HO2",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            },
+            {
+                "node": "O2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_91": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HO2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O2",
+                "direction": "product"
+            },
+            {
+                "node": "O2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_92": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_93": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_94": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_95": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "O",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_96": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_97": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_98": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HO2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_99": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O",
+                "direction": "reactant"
+            },
+            {
+                "node": "O2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_100": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_101": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_102": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_103": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_104": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH4",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            },
+            {
+                "node": "SIH3",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_105": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH4",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "SIH2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_106": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_107": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "O",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            },
+            {
+                "node": "SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_108": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            },
+            {
+                "node": "SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_109": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "sio2(c)",
+                "direction": "product"
+            },
+            {
+                "node": "O",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_110": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "sio2(c)",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_111": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH4",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O2",
+                "direction": "product"
+            },
+            {
+                "node": "SIH3",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_112": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH2",
+                "direction": "reactant"
+            },
+            {
+                "node": "HSIO",
+                "direction": "product"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_113": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HO2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O2",
+                "direction": "product"
+            },
+            {
+                "node": "HSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_114": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HSIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            },
+            {
+                "node": "SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_115": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH4",
+                "direction": "reactant"
+            },
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            },
+            {
+                "node": "SIH3",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_116": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "HSIO",
+                "direction": "product"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_117": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH4",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIOH",
+                "direction": "product"
+            },
+            {
+                "node": "SIH3",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_118": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SIH4",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIOO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIOOH",
+                "direction": "product"
+            },
+            {
+                "node": "SIH3",
+                "direction": "product"
+            }
+        ]
+    },
+    "H3SIOOH": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_118",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_119",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_120",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_121",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_122",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_128",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_119": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIOO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIOOH",
+                "direction": "product"
+            },
+            {
+                "node": "HSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_120": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HO2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIOO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIOOH",
+                "direction": "product"
+            },
+            {
+                "node": "O2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_121": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIO",
+                "direction": "product"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_122": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "H3SIOO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_123": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIOH",
+                "direction": "product"
+            },
+            {
+                "node": "HSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_124": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_125": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "O",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIOH",
+                "direction": "product"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_126": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O",
+                "direction": "product"
+            },
+            {
+                "node": "H2SIOH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_127": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH3",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIOH",
+                "direction": "product"
+            },
+            {
+                "node": "SIH4",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_128": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIOO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIOH",
+                "direction": "product"
+            },
+            {
+                "node": "H3SIOOH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_129": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIOH",
+                "direction": "product"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_130": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2O2",
+                "direction": "product"
+            },
+            {
+                "node": "H2SIOH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_131": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "HO2",
+                "direction": "product"
+            },
+            {
+                "node": "HSIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_132": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "HSIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIOH",
+                "direction": "product"
+            },
+            {
+                "node": "SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_133": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "OH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "HSIO(OH)",
+                "direction": "product"
+            },
+            {
+                "node": "H",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_134": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "HO2",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "HSIO(OH)",
+                "direction": "product"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_135": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH3",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIOOH",
+                "direction": "product"
+            }
+        ]
+    },
+    "H2SIOOH": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_135",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_137",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_138",
+                "direction": "product"
+            },
+            {
+                "node": "Rxn_140",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_141",
+                "direction": "reactant"
+            },
+            {
+                "node": "Rxn_142",
+                "direction": "reactant"
+            }
+        ]
+    },
+    "Rxn_136": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "O2",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIH3",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_137": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2SIOOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "O2",
+                "direction": "product"
+            },
+            {
+                "node": "SIH3",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_138": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2SIOOH",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_139": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H3SIOO",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_140": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2SIOOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIOO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_141": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2SIOOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "H3SIO",
+                "direction": "product"
+            },
+            {
+                "node": "O",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_142": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2SIOOH",
+                "direction": "reactant"
+            },
+            {
+                "node": "OH",
+                "direction": "product"
+            },
+            {
+                "node": "H2SIO",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_143": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "H2SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "SIO",
+                "direction": "reactant"
+            },
+            {
+                "node": "H2",
+                "direction": "product"
+            },
+            {
+                "node": "SI2O2",
+                "direction": "product"
+            }
+        ]
+    },
+    "Rxn_144": {
+        "type": "reaction",
+        "connections": [
+            {
+                "node": "SI2O4",
+                "direction": "reactant"
+            },
+            {
+                "node": "sio2(c)",
+                "direction": "product"
+            }
+        ]
+    },
+    "SI2O4": {
+        "type": "species",
+        "connections": [
+            {
+                "node": "Rxn_144",
+                "direction": "reactant"
+            }
+        ]
+    }
+}
